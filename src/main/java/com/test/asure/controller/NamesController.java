@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("names")
 public class NamesController {
 
+	//Majid Azure Test
 	@GetMapping("getNames")
 	public String getNames() {
 		return "Majid Soliman Azure-Test , Success";
